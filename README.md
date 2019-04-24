@@ -2,7 +2,4 @@
 f
 ffff
 ddd
-dddd
-
-ddd
 dd
