@@ -1,6 +1,6 @@
 image: "golang:alpine"
 script:
-  - echo hello3
+  - echo hello2
   - apk add git alpine-sdk
   - go get github.com/tidwall/buntdb
   - go get github.com/benchlab-io/go-bench
