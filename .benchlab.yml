@@ -5,3 +5,4 @@ script:
   - go get github.com/tidwall/buntdb
   - go get github.com/benchlab-io/go-bench
   - cd /go/src/github.com/tidwall/buntdb
+  - go test --bench=. | go-bench
