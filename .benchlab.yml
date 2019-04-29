@@ -2,3 +2,4 @@ image: "docker:dind"
 script:
   - docker --version
   - docker container ls -a
+  - echo toto
