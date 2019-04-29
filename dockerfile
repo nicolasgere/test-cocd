@@ -1,6 +1,6 @@
 FROM node:12
 
-RUN MKDIR /app
+RUN mkdir /app
 
 COPY . /app
 
