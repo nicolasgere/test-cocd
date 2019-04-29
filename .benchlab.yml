@@ -12,6 +12,3 @@ script:
   - rm -rf /var/cache/apk/*
   - docker --version
   - docker container ls -a
-  - apk add git alpine-sdk
-  - go get github.com/tidwall/buntdb
-  - go get github.com/benchlab-io/go-bench
