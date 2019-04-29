@@ -1,4 +1,4 @@
-image: "docker:dind"
+image: "jpetazzo/dind"
 script:
   - docker --version
   - docker container ls -a
