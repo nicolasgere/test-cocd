@@ -10,6 +10,7 @@ script:
   - rm -rf /tmp/download 
   - apk del curl
   - rm -rf /var/cache/apk/*
+  - docker --version
   - apk add git alpine-sdk
   - go get github.com/tidwall/buntdb
   - go get github.com/benchlab-io/go-bench
