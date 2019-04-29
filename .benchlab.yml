@@ -1,5 +1,3 @@
 image: "jpetazzo/dind"
 script:
-  - docker --version
-  - docker container ls -a
-  - echo toto1
+  - docker build -t RESULT .

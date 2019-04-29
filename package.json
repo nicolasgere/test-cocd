@@ -1,0 +1,22 @@
+{
+  "name": "test-cocd",
+  "version": "1.0.0",
+  "description": "f ffff dddd dddd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasgere/test-cocd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolasgere/test-cocd/issues"
+  },
+  "homepage": "https://github.com/nicolasgere/test-cocd#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
