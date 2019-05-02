@@ -1,5 +1,7 @@
 FROM node:12-alpine
 
+RUN echo toto
+
 RUN mkdir /app
 
 COPY . /app
