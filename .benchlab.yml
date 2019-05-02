@@ -1,3 +1,4 @@
 image: "jpetazzo/dind"
 script:
+  - echo toto
   - docker build -t result .
