@@ -1,4 +1,4 @@
 image: "jpetazzo/dind"
 script:
-  - echo toto1222r2334ed
+  - echo toto1222r2334edd
   - docker build -t result .
