@@ -1,0 +1,5 @@
+
+image: "jpetazzo/dind"
+script:
+  - echo totoF12d22dr233f4efdd
+- docker build -t result .
